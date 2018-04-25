@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+
+ <head>
+ 
+
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine2/style.css" />
+<script type="text/javascript" src="engine2/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Día mundial de la bicicleta</title>
+  
+  <!--grupo CSS-->
+  <link rel="stylesheet" href="css/tema-app3.min.css"/>
+  <link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+  <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+ 
+  <!--grupo JavaScript-->
+  <script src ="js/jquery-1.11.2.min.js"></script>
+  <script src ="js/jquery.mobile-1.4.5.min.js"></script>
+  <!--<script src ="js/acciones.js" type= "text/javascript"></script>-->
+ 
+ <script src ="phonegap.js"></script><!--necesario*/-->
+
+ <script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+ </script>
+ </head>
+<body onLoad="MM_preloadImages('imagenes/bici1.jpg','imagenes/bici3.jpg','imagenes/banner3.png')">
+
+
+
+
+ <div data-role="page" id="Principal" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1>Día mundial de la bicicleta</h1>
+  </div> 
+  <div data-role="main" class="iu-content">
+   <div data-role="collapsible" data-comtent-theme="false">
+   	<h1>Banner conmemotativo:</h1>
+   	<div align="center">
+   	 <img src="imagenes/banner.jpg" width="60%" height="60%">	
+   	</div>
+   </div>
+  </div>
+
+  <div>
+  	<ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+     <li class="ui-first-child ui-last-child">
+      <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>Historia de la bicicleta</h2>
+       <p>Se muestra la historia</p>	
+      </a>
+     </li>
+     <li class="ui-first-child ui-last-child">
+      <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>Utilización como medio de Transporte</h2>
+       <p>Se muestra la eficacia de usar la bicleta como transporte</p>	
+      </a>     	
+     </li>
+     <li class="ui-first-child ui-last-child">
+      <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>Tipo de Bicicletas</h2>
+       <p>Muestra el tipo de bicicletas que existen</p>	
+      </a>     	
+     </li> 
+     <li class="ui-first-child ui-last-child">
+      <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>5 Marcas importantes de bicicletas</h2>
+       <p>Muestra el top 5 de las marcas de bicicletas</p>	
+      </a>     	
+     </li> 
+     <li class="ui-first-child ui-last-child">
+      <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>Por que se celebra el Día mundial de la bicicleta</h2>
+       <p>Muestra el por que de la celebración</p>	
+      </a>     	
+     </li>   		
+  	</ul>
+  </div>
+
+  <div dara-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+    <img src="imagenes/bicicleta.png" width="46" height="46">
+   </div>
+   <div>
+    <h4>Aplicación Tres</h4>
+    <h4>Jeser Martínez Grande</h4>
+   </div>
+  </div>
+ </div>
+
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1>Historia</h1> 
+  </div>
+  <div data-role="content" align="center">
+   <div>
+   	<h2> La bicicleta es el resultado de la evolución de un juguete, en concreto del Célérifère que venía a ser un chasis macizo de madera con forma de animal y con dos ruedas con el que sólo se podía ir en línea recta. Como indica su nombre este juguete nació en Francia y en concreto en París el 1791 en plena revolución francesa de la mano del conde Mede de Sivrac.</h2>
+   </div>
+  </div>
+   <div align="center">
+   <a  href="http://www.terra.org/categorias/articulos/breve-historia-de-la-bicicleta"  target="_self">Mas información</a>
+  </div>
+  <div align="center">
+  <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image9','','imagenes/bici3.jpg',1)"><img src="imagenes/bici4.jpg" width="60%" height="60%" id="Image9"></a> 
+  </div>
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+   	<img src="imagenes/bicicleta.png" width="46" height="46">
+   </div>
+   <h4>Aplicación Tres, JMG</h4>
+  </div>
+ </div>
+
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1>Utilización como medio de Transporte</h1> 
+  </div>
+  <div data-role="content" align="center">
+   <div>
+   	<h2>Para la salud</h2>
+   	<p>Reduce los niveles de colesterol en la sangre y Ayuda a mejorar la coordinación motriz.</p>
+   	<h2>Para el cuidado del medio ambiente</h2>
+   	<p>Promueve la disminución de la misión de gases tóxicos para el ambiente y la adopción de estilos de vida saludables para las personas</p>
+   	<h2>Para el cuidado de la economía familiar</h2>
+   	<p>No gastar en impuestos, gasolina, parqueaderos, peajes, gastos de mantenimiento, pago de pasajes de servicio de transporte público</p>
+   </div>
+   <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image8','','imagenes/bici1.jpg',1)"><img src="imagenes/bici2.jpg" width="60%" height="60%" id="Image8"></a> </div>
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+   	<img src="imagenes/bicicleta.png" width="46" height="46">
+   </div>
+   <h4>Aplicación Tres, JMG</h4>
+  </div>
+ </div>
+
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1>Tipo de Bicicletas</h1> 
+  </div>
+  <div data-role="content" align="center">
+   <div>
+   	<h2>De Montaña ,De Ruta ,Híbrida, Urbana, Desplegable, Cruiser, Touring, Eléctrica, Utilitaria, Fat Bike</h2>
+    
+  <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/montana.jpg" alt="montaña" title="montaña" id="wows1_0"/></li>
+		<li><img src="data1/images/ruta.jpg" alt="ruta" title="ruta" id="wows1_1"/></li>
+		<li><img src="data1/images/hibrida.jpg" alt="hibrida" title="hibrida" id="wows1_2"/></li>
+		<li><img src="data1/images/urbana.jpg" alt="urbana" title="urbana" id="wows1_3"/></li>
+		<li><img src="data1/images/desplegable.jpg" alt="desplegable" title="desplegable" id="wows1_4"/></li>
+		<li><img src="data1/images/crucier.jpg" alt="crucier" title="crucier" id="wows1_5"/></li>
+		<li><img src="data1/images/turning.jpg" alt="turning" title="turning" id="wows1_6"/></li>
+		<li><img src="data1/images/electrica.jpg" alt="electrica" title="electrica" id="wows1_7"/></li>
+		<li><a href="http://wowslider.com"><img src="data1/images/utilitaria.jpg" alt="wow slider" title="utilitaria" id="wows1_8"/></a></li>
+		<li><img src="data1/images/fat_bike.jpg" alt="Fat Bike" title="Fat Bike" id="wows1_9"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="montaña"><span><img src="data1/tooltips/montana.jpg" alt="montaña"/>1</span></a>
+		<a href="#" title="ruta"><span><img src="data1/tooltips/ruta.jpg" alt="ruta"/>2</span></a>
+		<a href="#" title="hibrida"><span><img src="data1/tooltips/hibrida.jpg" alt="hibrida"/>3</span></a>
+		<a href="#" title="urbana"><span><img src="data1/tooltips/urbana.jpg" alt="urbana"/>4</span></a>
+		<a href="#" title="desplegable"><span><img src="data1/tooltips/desplegable.jpg" alt="desplegable"/>5</span></a>
+		<a href="#" title="crucier"><span><img src="data1/tooltips/crucier.jpg" alt="crucier"/>6</span></a>
+		<a href="#" title="turning"><span><img src="data1/tooltips/turning.jpg" alt="turning"/>7</span></a>
+		<a href="#" title="electrica"><span><img src="data1/tooltips/electrica.jpg" alt="electrica"/>8</span></a>
+		<a href="#" title="utilitaria"><span><img src="data1/tooltips/utilitaria.jpg" alt="utilitaria"/>9</span></a>
+		<a href="#" title="Fat Bike"><span><img src="data1/tooltips/fat_bike.jpg" alt="Fat Bike"/>10</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">jquery slider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+
+
+   </div>
+  </div>
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+   	<img src="imagenes/bicicleta.png" width="46" height="46">
+   </div>
+   <h4>Aplicación Tres, JMG</h4>
+  </div>
+ </div>
+
+<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1>Marcas importantes</h1> 
+  </div>
+  <div data-role="content" align="center">
+   <div>
+   	<h2>1.-Specialized    2.-Trek    3.-Merida    4.-Scott    5.-Giant</h2>
+    
+    <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container2">
+<div class="ws_images"><ul>
+		<li><img src="data2/images/specialized.jpg" alt="Specialized" title="Specialized" id="wows2_0"/></li>
+		<li><img src="data2/images/trek.jpg" alt="Trek" title="Trek" id="wows2_1"/></li>
+		<li><img src="data2/images/merida.png" alt="Merida" title="Merida" id="wows2_2"/></li>
+		<li><a href="http://wowslider.com"><img src="data2/images/giant.jpg" alt="wowslider.com" title="Giant" id="wows2_3"/></a></li>
+		<li><img src="data2/images/scott.jpg" alt="Scott" title="Scott" id="wows2_4"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="Specialized"><span><img src="data2/tooltips/specialized.jpg" alt="Specialized"/>1</span></a>
+		<a href="#" title="Trek"><span><img src="data2/tooltips/trek.jpg" alt="Trek"/>2</span></a>
+		<a href="#" title="Merida"><span><img src="data2/tooltips/merida.png" alt="Merida"/>3</span></a>
+		<a href="#" title="Giant"><span><img src="data2/tooltips/giant.jpg" alt="Giant"/>4</span></a>
+		<a href="#" title="Scott"><span><img src="data2/tooltips/scott.jpg" alt="Scott"/>5</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">jquery slider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine2/wowslider.js"></script>
+<script type="text/javascript" src="engine2/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+
+
+   </div>
+  </div>
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+   	<img src="imagenes/bicicleta.png" width="46" height="46">
+   </div>
+   <h4>Aplicación Tres, JMG</h4>
+  </div>
+ </div>
+
+<div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1>Por que se celebra el Día mundial de la bicicleta</h1> 
+  </div>
+  <div data-role="content" align="center">
+   <div>
+   	<h2>Se celebra con la finalidad de promover el uso de este medio de transporte, llamar la atención sobre los derechos de los ciclistas y destacar sus beneficios para la salud y para la movilidad sostenible. </h2>
+    <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image40','','imagenes/banner3.png',1)"><img src="imagenes/banner2.jpg" width="60%" height="60%" id="Image40"></a> </div>
+  </div>
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+   	<img src="imagenes/bicicleta.png" width="46" height="46">
+   </div>
+   <h4>Aplicación Tres, JMG</h4>
+  </div>
+ </div>
+
+</body>
+</html>
